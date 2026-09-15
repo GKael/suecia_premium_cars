@@ -41,7 +41,7 @@ export default function Home() {
     <div className="container mx-auto px-6">
         <div id="header-bar" className="flex justify-between items-center bg-transparent border border-transparent rounded-full px-6 py-3 transition-all duration-500">
             <a href="#home" className="flex items-center group">
-                <img src="logo.png" alt="SuÃ©cia Premium Cars" className="h-14 w-auto transition-transform group-hover:scale-105" />
+                <img src="/logo.png" alt="SuÃ©cia Premium Cars" className="h-14 w-auto transition-transform group-hover:scale-105" />
             </a>
 
             
@@ -137,7 +137,7 @@ export default function Home() {
             
             <div className="w-full lg:w-1/2 relative animate-fade-in-up delay-300">
                 <div className="relative w-full aspect-[4/3] md:aspect-[16/10] rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl">
-                    <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('hero-car.jpg')" }}></div>
+                    <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/hero-car.jpg')" }}></div>
                     <div className="absolute inset-0 bg-gradient-to-t from-dark/90 via-transparent to-transparent"></div>
                     
                     
@@ -187,7 +187,7 @@ export default function Home() {
                 </div>
                 
                 <div className="w-full aspect-[4/3] rounded-2xl mb-8 relative flex items-center justify-center overflow-hidden">
-                    <img src="polimento.png" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Polimento e VitrificaÃ§Ã£o" />
+                    <img src="/polimento.png" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Polimento e VitrificaÃ§Ã£o" />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#121212] via-transparent to-transparent opacity-80"></div>
                 </div>
                 
@@ -218,7 +218,7 @@ export default function Home() {
                 </div>
                 
                 <div className="w-full aspect-[4/3] rounded-2xl mb-8 relative flex items-center justify-center overflow-hidden">
-                    <img src="ppf.webp" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="PPF Frontal e Total" />
+                    <img src="/ppf.webp" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="PPF Frontal e Total" />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#121212] via-transparent to-transparent opacity-80"></div>
                 </div>
                 
@@ -249,7 +249,7 @@ export default function Home() {
                 </div>
                 
                 <div className="w-full aspect-[4/3] rounded-2xl mb-8 relative flex items-center justify-center overflow-hidden">
-                    <img src="revisao.jpg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="RevisÃ£o Premium" />
+                    <img src="/revisao.jpg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="RevisÃ£o Premium" />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#121212] via-transparent to-transparent opacity-80"></div>
                 </div>
                 
@@ -345,7 +345,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 scroll-reveal">
             <div className="group relative aspect-video rounded-[1.5rem] overflow-hidden border border-white/5 cursor-pointer">
-                <div className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: "url('volvo-ex30.jpg')" }}></div>
+                <div className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: "url('/volvo-ex30.jpg')" }}></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/20 to-transparent opacity-80"></div>
                 <div className="absolute bottom-6 left-6">
                     <p className="text-xs text-primary uppercase tracking-widest font-medium mb-1">Volvo EX30</p>
@@ -354,7 +354,7 @@ export default function Home() {
             </div>
             
             <div className="group relative aspect-video rounded-[1.5rem] overflow-hidden border border-white/5 cursor-pointer">
-                <div className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: "url('volvo-xc60.jpg')" }}></div>
+                <div className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" style={{ backgroundImage: "url('/volvo-xc60.jpg')" }}></div>
                 <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/20 to-transparent opacity-80"></div>
                 <div className="absolute bottom-6 left-6">
                     <p className="text-xs text-primary uppercase tracking-widest font-medium mb-1">Volvo XC60</p>
@@ -416,7 +416,7 @@ export default function Home() {
             
             <div className="md:col-span-5">
                 <a href="#home" className="flex items-center mb-6">
-                    <img src="logo.png" alt="SuÃ©cia Premium Cars" className="h-16 w-auto" />
+                    <img src="/logo.png" alt="SuÃ©cia Premium Cars" className="h-16 w-auto" />
                 </a>
                 <p className="text-muted text-sm leading-relaxed mb-6 max-w-sm">
                     Oficina Especializada em Volvo e atendimento Multimarcas. A referÃªncia absoluta em cuidados automotivos premium na regiÃ£o de FlorianÃ³polis.
@@ -474,6 +474,7 @@ export default function Home() {
     </>
   );
 }
+
 
 
 
