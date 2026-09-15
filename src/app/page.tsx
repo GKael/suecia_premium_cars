@@ -41,15 +41,15 @@ export default function Home() {
     <div className="container mx-auto px-6">
         <div id="header-bar" className="flex justify-between items-center bg-transparent border border-transparent rounded-full px-6 py-3 transition-all duration-500">
             <a href="#home" className="flex items-center group">
-                <img src="/logo.png" alt="SuÃ©cia Premium Cars" className="h-14 w-auto transition-transform group-hover:scale-105" />
+                <img src="/logo.png" alt="Suécia Premium Cars" className="h-14 w-auto transition-transform group-hover:scale-105" />
             </a>
 
             
             <nav className="hidden md:flex items-center gap-8">
-                <a href="#servicos" className="text-sm font-medium text-muted hover:text-light transition-colors">ServiÃ§os</a>
+                <a href="#servicos" className="text-sm font-medium text-muted hover:text-light transition-colors">Serviços</a>
                 <a href="#sobre" className="text-sm font-medium text-muted hover:text-light transition-colors">Sobre</a>
-                <a href="#portfolio" className="text-sm font-medium text-muted hover:text-light transition-colors">PortfÃ³lio</a>
-                <a href="#avaliacoes" className="text-sm font-medium text-muted hover:text-light transition-colors">AvaliaÃ§Ãµes</a>
+                <a href="#portfolio" className="text-sm font-medium text-muted hover:text-light transition-colors">Portfólio</a>
+                <a href="#avaliacoes" className="text-sm font-medium text-muted hover:text-light transition-colors">Avaliações</a>
             </nav>
 
             <div className="hidden md:flex items-center gap-4">
@@ -68,10 +68,10 @@ export default function Home() {
 
     
     <div id="mobile-menu" className="hidden md:hidden absolute top-full left-6 right-6 mt-2 bg-secondary/95 backdrop-blur-2xl border border-white/5 rounded-2xl py-6 flex-col items-center gap-6 shadow-2xl">
-        <a href="#servicos" className="mobile-link text-base font-medium text-light hover:text-primary">ServiÃ§os</a>
+        <a href="#servicos" className="mobile-link text-base font-medium text-light hover:text-primary">Serviços</a>
         <a href="#sobre" className="mobile-link text-base font-medium text-light hover:text-primary">Sobre</a>
-        <a href="#portfolio" className="mobile-link text-base font-medium text-light hover:text-primary">PortfÃ³lio</a>
-        <a href="#avaliacoes" className="mobile-link text-base font-medium text-light hover:text-primary">AvaliaÃ§Ãµes</a>
+        <a href="#portfolio" className="mobile-link text-base font-medium text-light hover:text-primary">Portfólio</a>
+        <a href="#avaliacoes" className="mobile-link text-base font-medium text-light hover:text-primary">Avaliações</a>
         <a href="#contato" className="mobile-link text-base font-medium text-light hover:text-primary">Contato</a>
         <a href="https://wa.me/5581995193349" className="mt-2 bg-primary text-dark font-semibold py-3 px-8 rounded-full text-center w-3/4">Agendar Agora</a>
     </div>
@@ -105,7 +105,7 @@ export default function Home() {
                 </h1>
                 
                 <p className="text-lg md:text-xl text-muted mb-12 max-w-lg leading-relaxed font-light animate-fade-in-up delay-200">
-                    Oficina Especializada em Volvo e atendimento premium Multimarcas. Elevamos o padrÃ£o do cuidado automotivo com precisÃ£o clÃ­nica.
+                    Oficina Especializada em Volvo e atendimento premium Multimarcas. Elevamos o padrão do cuidado automotivo com precisÃ£o clÃ­nica.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-5 animate-fade-in-up delay-300">
@@ -129,7 +129,7 @@ export default function Home() {
                             <Star className="w-4 h-4 fill-current" />
                             <span className="font-bold text-sm text-light ml-1">5.0</span>
                         </div>
-                        <p className="text-xs text-muted">AvaliaÃ§Ãµes no Google</p>
+                        <p className="text-xs text-muted">Avaliações no Google</p>
                     </div>
                 </div>
             </div>
@@ -158,8 +158,8 @@ export default function Home() {
     <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6 scroll-reveal">
             <div>
-                <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Nossa ColeÃ§Ã£o<br/>de <span className="gold-gradient">ServiÃ§os</span></h2>
-                <p className="text-muted text-lg max-w-md font-light">PadrÃ£o de excelÃªncia para veÃ­culos extraordinÃ¡rios.</p>
+                <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">Nossa ColeÃ§Ã£o<br/>de <span className="gold-gradient">Serviços</span></h2>
+                <p className="text-muted text-lg max-w-md font-light">padrão de excelência para veÃ­culos extraordinÃ¡rios.</p>
             </div>
             
             <div className="flex gap-3">
@@ -187,7 +187,7 @@ export default function Home() {
                 </div>
                 
                 <div className="w-full aspect-[4/3] rounded-2xl mb-8 relative flex items-center justify-center overflow-hidden">
-                    <img src="/polimento.png" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Polimento e VitrificaÃ§Ã£o" />
+                    <img src="/polimento.png" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Polimento e Vitrificação" />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#121212] via-transparent to-transparent opacity-80"></div>
                 </div>
                 
@@ -195,7 +195,7 @@ export default function Home() {
                     <div className="flex justify-between items-end">
                         <div>
                             <p className="text-xs text-muted mb-2">A partir de</p>
-                            <h3 className="text-xl font-bold text-light mb-1">Polimento & VitrificaÃ§Ã£o</h3>
+                            <h3 className="text-xl font-bold text-light mb-1">Polimento & Vitrificação</h3>
                             <p className="text-primary font-medium">R$ 1.200</p>
                         </div>
                         <a href="https://wa.me/5581995193349" className="w-10 h-10 rounded-full bg-dark border border-white/10 flex items-center justify-center text-light group-hover:bg-primary group-hover:text-dark transition-colors">
@@ -210,10 +210,10 @@ export default function Home() {
                 <div className="flex justify-between items-center mb-6">
                     <div className="flex items-center gap-2 bg-dark rounded-full px-3 py-1 border border-white/5">
                         <div className="w-2 h-2 rounded-full bg-primary"></div>
-                        <span className="text-[10px] font-medium uppercase tracking-widest text-muted">AvanÃ§ado</span>
+                        <span className="text-[10px] font-medium uppercase tracking-widest text-muted">Avançado</span>
                     </div>
                     <div className="bg-dark rounded-full px-3 py-1 border border-white/5">
-                        <span className="text-[10px] font-medium uppercase tracking-widest text-muted">ProteÃ§Ã£o</span>
+                        <span className="text-[10px] font-medium uppercase tracking-widest text-muted">Proteção</span>
                     </div>
                 </div>
                 
@@ -244,12 +244,12 @@ export default function Home() {
                         <span className="text-[10px] font-medium uppercase tracking-widest text-muted">Especializada</span>
                     </div>
                     <div className="bg-dark rounded-full px-3 py-1 border border-white/5">
-                        <span className="text-[10px] font-medium uppercase tracking-widest text-muted">MecÃ¢nica</span>
+                        <span className="text-[10px] font-medium uppercase tracking-widest text-muted">mecânica</span>
                     </div>
                 </div>
                 
                 <div className="w-full aspect-[4/3] rounded-2xl mb-8 relative flex items-center justify-center overflow-hidden">
-                    <img src="/revisao.jpg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="RevisÃ£o Premium" />
+                    <img src="/revisao.jpg" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Revisão Premium" />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#121212] via-transparent to-transparent opacity-80"></div>
                 </div>
                 
@@ -257,7 +257,7 @@ export default function Home() {
                     <div className="flex justify-between items-end">
                         <div>
                             <p className="text-xs text-muted mb-2">Sob avaliaÃ§Ã£o</p>
-                            <h3 className="text-xl font-bold text-light mb-1">RevisÃ£o Premium</h3>
+                            <h3 className="text-xl font-bold text-light mb-1">Revisão Premium</h3>
                             <p className="text-primary font-medium">Sob Consulta</p>
                         </div>
                         <a href="https://wa.me/5581995193349" className="w-10 h-10 rounded-full bg-dark border border-white/10 flex items-center justify-center text-light group-hover:bg-primary group-hover:text-dark transition-colors">
@@ -292,8 +292,8 @@ export default function Home() {
                             <Award className="text-primary w-6 h-6" />
                         </div>
                         <div>
-                            <h4 className="font-bold text-lg text-light">CertificaÃ§Ã£o</h4>
-                            <p className="text-xs text-muted uppercase">PadrÃ£o Ouro</p>
+                            <h4 className="font-bold text-lg text-light">Certificação</h4>
+                            <p className="text-xs text-muted uppercase">padrão Ouro</p>
                         </div>
                     </div>
                     <p className="text-sm text-muted">Utilizamos apenas produtos e peÃ§as homologadas pelas principais montadoras premium.</p>
@@ -302,9 +302,9 @@ export default function Home() {
 
             <div>
                 <div className="mb-8">
-                    <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">A ReferÃªncia em<br/><span className="text-gradient">FlorianÃ³polis</span>.</h2>
+                    <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">A Referência em<br/><span className="text-gradient">Florianópolis</span>.</h2>
                     <p className="text-muted text-lg font-light leading-relaxed">
-                        Nascemos da paixÃ£o por automÃ³veis extraordinÃ¡rios. Nossa estrutura em Jardim AtlÃ¢ntico foi projetada para oferecer um nÃ­vel de cuidado que seu veÃ­culo merece.
+                        Nascemos da paixÃ£o por automÃ³veis extraordinÃ¡rios. Nossa estrutura em Jardim Atlântico foi projetada para oferecer um nÃ­vel de cuidado que seu veÃ­culo merece.
                     </p>
                 </div>
 
@@ -315,7 +315,7 @@ export default function Home() {
                         </div>
                         <div>
                             <h4 className="font-bold text-light mb-1">Tecnologia de Ponta</h4>
-                            <p className="text-sm text-muted">DiagnÃ³sticos computadorizados com os mesmos scanners utilizados em concessionÃ¡rias.</p>
+                            <p className="text-sm text-muted">Diagnósticos computadorizados com os mesmos scanners utilizados em concessionÃ¡rias.</p>
                         </div>
                     </div>
 
@@ -325,7 +325,7 @@ export default function Home() {
                         </div>
                         <div>
                             <h4 className="font-bold text-light mb-1">Equipe Especializada</h4>
-                            <p className="text-sm text-muted">Profissionais com anos de experiÃªncia em veÃ­culos europeus e esportivos.</p>
+                            <p className="text-sm text-muted">Profissionais com anos de experiência em veÃ­culos europeus e esportivos.</p>
                         </div>
                     </div>
                 </div>
@@ -349,7 +349,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-t from-dark via-dark/20 to-transparent opacity-80"></div>
                 <div className="absolute bottom-6 left-6">
                     <p className="text-xs text-primary uppercase tracking-widest font-medium mb-1">Volvo EX30</p>
-                    <h4 className="text-xl font-bold text-light">VitrificaÃ§Ã£o Completa</h4>
+                    <h4 className="text-xl font-bold text-light">Vitrificação Completa</h4>
                 </div>
             </div>
             
@@ -369,8 +369,8 @@ export default function Home() {
 <section id="contato" className="py-24 border-t border-white/5 bg-[#030303]">
     <div className="container mx-auto px-6">
         <div className="text-center mb-16 scroll-reveal">
-            <h2 className="text-4xl font-bold tracking-tight mb-4">Nossa <span className="gold-gradient">LocalizaÃ§Ã£o</span></h2>
-            <p className="text-muted font-light max-w-lg mx-auto">Visite nosso centro de estÃ©tica premium no coraÃ§Ã£o de FlorianÃ³polis.</p>
+            <h2 className="text-4xl font-bold tracking-tight mb-4">Nossa <span className="gold-gradient">Localização</span></h2>
+            <p className="text-muted font-light max-w-lg mx-auto">Visite nosso centro de estÃ©tica premium no coraÃ§Ã£o de Florianópolis.</p>
         </div>
 
         <div className="bg-secondary border border-white/5 rounded-[2rem] overflow-hidden p-2 shadow-2xl relative scroll-reveal">
@@ -392,12 +392,12 @@ export default function Home() {
                             <MapPin className="text-primary w-5 h-5" />
                         </div>
                         <div>
-                            <h4 className="font-bold text-light">SuÃ©cia Premium Cars</h4>
-                            <p className="text-xs text-muted">Jardim AtlÃ¢ntico, FlorianÃ³polis</p>
+                            <h4 className="font-bold text-light">Suécia Premium Cars</h4>
+                            <p className="text-xs text-muted">Jardim Atlântico, Florianópolis</p>
                         </div>
                     </div>
                     <a href="https://wa.me/5581995193349" target="_blank" className="w-full py-2.5 bg-light text-dark font-bold text-sm rounded-full text-center hover:bg-primary transition-colors">
-                        TraÃ§ar Rota
+                        Traçar Rota
                     </a>
                 </div>
             </div>
@@ -416,14 +416,14 @@ export default function Home() {
             
             <div className="md:col-span-5">
                 <a href="#home" className="flex items-center mb-6">
-                    <img src="/logo.png" alt="SuÃ©cia Premium Cars" className="h-16 w-auto" />
+                    <img src="/logo.png" alt="Suécia Premium Cars" className="h-16 w-auto" />
                 </a>
                 <p className="text-muted text-sm leading-relaxed mb-6 max-w-sm">
-                    Oficina Especializada em Volvo e atendimento Multimarcas. A referÃªncia absoluta em cuidados automotivos premium na regiÃ£o de FlorianÃ³polis.
+                    Oficina Especializada em Volvo e atendimento Multimarcas. A Referência absoluta em cuidados automotivos premium na regiÃ£o de Florianópolis.
                 </p>
                 <div className="flex gap-3 mb-8">
-                    <a href="https://wa.me/5581995193349" className="px-5 py-2 rounded-full border border-primary text-primary text-sm font-semibold hover:bg-primary hover:text-dark transition-colors">Agendar RevisÃ£o</a>
-                    <a href="#servicos" className="px-5 py-2 rounded-full border border-white/10 text-light text-sm font-medium hover:bg-white/10 transition-colors">Ver ServiÃ§os</a>
+                    <a href="https://wa.me/5581995193349" className="px-5 py-2 rounded-full border border-primary text-primary text-sm font-semibold hover:bg-primary hover:text-dark transition-colors">Agendar Revisão</a>
+                    <a href="#servicos" className="px-5 py-2 rounded-full border border-white/10 text-light text-sm font-medium hover:bg-white/10 transition-colors">Ver Serviços</a>
                 </div>
             </div>
 
@@ -431,8 +431,8 @@ export default function Home() {
                 <h4 className="font-semibold text-light mb-6 tracking-wide">Menu</h4>
                 <ul className="space-y-4">
                     <li><a href="#home" className="text-sm text-muted hover:text-light transition-colors">InÃ­cio</a></li>
-                    <li><a href="#servicos" className="text-sm text-muted hover:text-light transition-colors">ServiÃ§os</a></li>
-                    <li><a href="#portfolio" className="text-sm text-muted hover:text-light transition-colors">PortfÃ³lio</a></li>
+                    <li><a href="#servicos" className="text-sm text-muted hover:text-light transition-colors">Serviços</a></li>
+                    <li><a href="#portfolio" className="text-sm text-muted hover:text-light transition-colors">Portfólio</a></li>
                     <li><a href="#sobre" className="text-sm text-muted hover:text-light transition-colors">Nossa Estrutura</a></li>
                 </ul>
             </div>
@@ -442,7 +442,7 @@ export default function Home() {
                 <ul className="space-y-4">
                     <li className="flex items-start gap-3">
                         <MapPin className="w-4 h-4 text-muted mt-0.5" />
-                        <span className="text-sm text-muted">Jardim AtlÃ¢ntico<br/>FlorianÃ³polis, SC</span>
+                        <span className="text-sm text-muted">Jardim Atlântico<br/>Florianópolis, SC</span>
                     </li>
                     <li className="flex items-center gap-3">
                         <Phone className="w-4 h-4 text-muted" />
@@ -458,8 +458,8 @@ export default function Home() {
         </div>
 
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-muted text-xs">&copy; 2026 SuÃ©cia Premium Cars. Todos os direitos reservados.</p>
-            <p className="text-muted text-xs">Desenvolvido com excelÃªncia.</p>
+            <p className="text-muted text-xs">&copy; 2026 Suécia Premium Cars. Todos os direitos reservados.</p>
+            <p className="text-muted text-xs">Desenvolvido com excelência.</p>
         </div>
     </div>
 </footer>
@@ -474,6 +474,7 @@ export default function Home() {
     </>
   );
 }
+
 
 
 
