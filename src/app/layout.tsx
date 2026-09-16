@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className="scroll-smooth">
-      <body className={${outfit.className} bg-dark text-light antialiased selection:bg-primary selection:text-dark overflow-x-hidden}>
+      <body className={`${outfit.className} bg-dark text-light antialiased selection:bg-primary selection:text-dark overflow-x-hidden`}>
         {children}
       </body>
     </html>
